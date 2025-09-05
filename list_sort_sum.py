@@ -5,3 +5,5 @@ nums.sort(reverse=True)
 print(nums)  # 降順
 
 print(sum(nums))
+
+print(sum([True, False, True]))  # Trueは1、Falseは0として扱われる
