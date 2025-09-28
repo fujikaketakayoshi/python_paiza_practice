@@ -4,4 +4,4 @@ print(''.join(lst))   # abcd
 print(', '.join(lst)) # a, b, c, d
 
 arr = [1, 2, 3, 4 / 5]
-print("\n".join(map(str, arr)))
+print(" ".join(map(str, arr)))
