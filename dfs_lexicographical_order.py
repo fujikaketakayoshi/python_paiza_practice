@@ -1,4 +1,5 @@
 chars = ['d', 'a', 'b', 'c']
+chars.sort()
 visited = [False] * len(chars)
 result = []
 def dfs(path):
@@ -14,5 +15,5 @@ def dfs(path):
             visited[i] = False
 
 dfs([])
-result.sort()
+
 print('\n'.join(result))
